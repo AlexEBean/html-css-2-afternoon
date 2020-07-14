@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 70%;
+    position: fixed;
+}
+
+a {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+    padding: 10px;      
+}
+
+.launch{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 45%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.mission{
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.box1{
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    border-width: 1px;
+    padding: 18px 50px;
+}
+
+
+
+.img{
+    width: 100vw;
+    height: 100vh;   
+    background-size: cover;
+}
+
+#img1{
+    background-image:url("https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp") ;
+}
+#img2{
+    background-image: url("https://www.spacex.com/static/images/backgrounds/gps3_launch_desktop_02.webp");
+}
+
+#img3{
+    background-image: url("https://www.spacex.com/static/images/backgrounds/home_demo2.webp");
+}
+
+#img4{
+    background-image: url("https://www.spacex.com/static/images/backgrounds/home_moon.webp");
+}
+
+
+
+footer {
+    height: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.copyright{
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.media{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
